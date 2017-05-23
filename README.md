@@ -1,7 +1,13 @@
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Ernest_Solvay.jpg/164px-Ernest_Solvay.jpg" align="right">](https://en.wikipedia.org/wiki/Ernest_Solvay)
 # solvay-nb
-UJI Solvay Notebooks
+UJI Solvay Notebooks allows you to execute jupyter notebooks 
+in the central node (solvay.uji.es) of [UJI's high-performance
+computation cluster](http://www.uji.es/serveis/si/serveis/calcul/recal/).
 
 # Installation
+
+You need an account at the cluster solvay ([form](https://e-ujier.uji.es/pls/www/!gri_ass.spi020102?p_proc=251&p_tema=12)). 
+
 Clone the repo into your solvay account with:
 
 `$ git clone https://github.com/ecervera/solvay-nb.git`
