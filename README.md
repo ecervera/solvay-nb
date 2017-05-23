@@ -14,3 +14,6 @@ Clone the repo into your solvay account with:
 2. In your browser, open the URL displayed in the terminal.
 
 3. Open the `INDEX.ipynb` file.
+
+# Execution (Windows)
+Coming soon
