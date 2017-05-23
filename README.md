@@ -1,6 +1,6 @@
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Ernest_Solvay.jpg/164px-Ernest_Solvay.jpg" align="right">](https://en.wikipedia.org/wiki/Ernest_Solvay)
 # solvay-nb
-UJI Solvay Notebooks allows you to execute jupyter notebooks 
+UJI Solvay Notebooks allows you to execute [jupyter notebooks](https://jupyter.org/index.html)
 in the central node (solvay.uji.es) of [UJI's high-performance
 computation cluster](http://www.uji.es/serveis/si/serveis/calcul/recal/).
 
