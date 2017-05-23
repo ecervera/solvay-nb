@@ -1,2 +1,2 @@
 # solvay-nb
-UJI SOlvay notebooks
+UJI Solvay notebooks
