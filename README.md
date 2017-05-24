@@ -5,12 +5,19 @@ in the central node (solvay.uji.es) of [UJI's high-performance
 computation cluster](http://www.uji.es/serveis/si/serveis/calcul/recal/).
 
 # Installation
+1. You need an account at the cluster solvay ([form](https://e-ujier.uji.es/pls/www/!gri_ass.spi020102?p_proc=251&p_tema=12)). 
 
-You need an account at the cluster solvay ([form](https://e-ujier.uji.es/pls/www/!gri_ass.spi020102?p_proc=251&p_tema=12)). 
-
-Clone the repo into your solvay account with:
+2. Clone the repo into your solvay account with:
 
 `$ git clone https://github.com/ecervera/solvay-nb.git`
+
+3. Add the following lines to your `.bashrc` file:
+
+`export PATH="/usr/local/octave/bin:$PATH"`
+
+`export PATH="/usr/local/conda/miniconda3/bin:$PATH"`
+
+`export PYTHONPATH=`
 
 # Execution (macOS / Linux)
 1. In your desktop or laptop computer, run in a terminal:
