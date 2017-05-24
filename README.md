@@ -29,4 +29,12 @@ computation cluster](http://www.uji.es/serveis/si/serveis/calcul/recal/).
 3. Open the `INDEX.ipynb` file.
 
 # Execution (Windows)
-Coming soon
+
+You need [PuTTY](http://www.putty.org/) installed in your computer.
+
+1. In your desktop or laptop computer, open a Windows console and run:
+`plink -ssh solvay -L 8888:localhost:8888 "jupyter-notebook --no-browser --notebook-dir=solvay-nb"`
+
+2. In your browser, open the URL displayed in the terminal.
+
+3. Open the `INDEX.ipynb` file.
