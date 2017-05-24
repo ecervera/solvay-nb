@@ -30,12 +30,19 @@ computation cluster](http://www.uji.es/serveis/si/serveis/calcul/recal/).
 
 # Execution (Windows)
 
-You need [PuTTY](http://www.putty.org/) installed in your computer.
+You need a ssh client installed in your computer: we recommend [OpenSSH for Windows](http://www.mls-software.com/opensshd.html).
+With this software, the steps for connecting to the server are the same than in Linux. 
+Other software like [PuTTY](http://www.putty.org/) works too, but
+the configuration is slightly different.
 
-1. In your desktop or laptop computer, open a Windows console and run:
+1. After installing the OpenSSH client, open a Windows console and run:
 
-`plink -ssh solvay -L 8888:localhost:8888 "jupyter-notebook --no-browser --notebook-dir=solvay-nb"`
+`ssh solvay -L 8888:localhost:8888 "jupyter-notebook --no-browser --notebook-dir=solvay-nb"`
 
 2. In your browser, open the URL displayed in the terminal.
 
 3. Open the `INDEX.ipynb` file.
+
+# Stop
+
+Close the notebooks in your browser, and press Ctrl-C twice in your terminal.
